@@ -1,1 +1,33 @@
+version: '3.8'
+
+services:
+  sentinelbash:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: sentinelbash:latest
+    container_name: sentinelbash-soc
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    environment:
+      - SENTINEL_ENV=production
+      - SENTINEL_LOG_LEVEL=INFO
+      - SENTINEL_CONTAINMENT_DRIVER=iptables
+    volumes:
+      - sentinel-data:/opt/sentinelbash/data
+      - /var/log:/var/log:ro
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+volumes:
+  sentinel-data:
+    driver: local
 
