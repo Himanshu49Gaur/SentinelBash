@@ -1,0 +1,15 @@
+[
+  "tests/test_api.py::TestSentinelAPI::test_01_health_and_metrics",
+  "tests/test_api.py::TestSentinelAPI::test_02_admin_login_and_token_refresh",
+  "tests/test_api.py::TestSentinelAPI::test_03_api_key_authentication",
+  "tests/test_api.py::TestSentinelAPI::test_04_rules_and_whitelist",
+  "tests/test_api.py::TestSentinelAPI::test_05_containment_and_immunity",
+  "tests/test_api.py::TestSentinelAPI::test_06_rbac_enforcement",
+  "tests/test_database.py::TestDatabaseSchema::test_admin_user_seeded",
+  "tests/test_database.py::TestDatabaseSchema::test_foreign_keys_enabled",
+  "tests/test_database.py::TestDatabaseSchema::test_incident_and_events_foreign_key",
+  "tests/test_database.py::TestDatabaseSchema::test_notification_logging",
+  "tests/test_database.py::TestDatabaseSchema::test_schema_tables_exist",
+  "tests/test_database.py::TestDatabaseSchema::test_seeded_rules",
+  "tests/test_database.py::TestDatabaseSchema::test_wal_mode_enabled"
+]
