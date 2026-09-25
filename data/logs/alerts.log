@@ -1,0 +1,13 @@
+2026-09-23T23:24:10Z|INC-20260924-cffd0f12|CRITICAL|SSH_BRUTE_FORCE|198.51.100.95|5|SSH brute force authentication threshold exceeded
+2026-09-24T19:15:02Z|INC-20260925-d91c683b|CRITICAL|SSH_BRUTE_FORCE|198.51.100.222|5|SSH brute force authentication threshold exceeded
+2026-09-24T19:15:54Z|INC-20260925-8585ab1b|CRITICAL|SSH_BRUTE_FORCE|198.51.100.95|5|SSH brute force authentication threshold exceeded
+2026-09-24T19:24:29Z|INC-20260925-22f709ac|CRITICAL|SSH_BRUTE_FORCE|198.51.100.95|5|SSH brute force authentication threshold exceeded
+2026-09-24T19:24:58Z|INC-20260925-30973bfa|CRITICAL|SSH_BRUTE_FORCE|198.51.100.222|5|SSH brute force authentication threshold exceeded
+2026-09-24T19:33:59Z|INC-20260925-11517d30|CRITICAL|SSH_BRUTE_FORCE|198.51.100.111|5|SSH brute force authentication threshold exceeded
+2026-09-24T19:34:17Z|INC-20260925-7b493d51|HIGH|WEB_EXPLOIT_SCAN|203.0.113.222|3|Web application vulnerability scanning or probe attempts exceeded
+2026-09-24T19:34:30Z|INC-20260925-99a33071|CRITICAL|SSH_BRUTE_FORCE|198.51.100.95|5|SSH brute force authentication threshold exceeded
+2026-09-24T19:35:03Z|INC-20260925-7604d51a|CRITICAL|SSH_BRUTE_FORCE|198.51.100.222|5|SSH brute force authentication threshold exceeded
+2026-09-24T19:35:17Z|INC-20260925-74b0e73e|CRITICAL|SSH_BRUTE_FORCE|198.51.100.111|5|SSH brute force authentication threshold exceeded
+2026-09-24T19:35:37Z|INC-20260925-ac6bb1d8|HIGH|WEB_EXPLOIT_SCAN|203.0.113.222|3|Web application vulnerability scanning or probe attempts exceeded
+2026-09-24T19:36:01Z|INC-20260925-8419563b|CRITICAL|SSH_BRUTE_FORCE|198.51.100.111|5|SSH brute force authentication threshold exceeded
+2026-09-24T19:36:21Z|INC-20260925-dc968892|HIGH|WEB_EXPLOIT_SCAN|203.0.113.222|3|Web application vulnerability scanning or probe attempts exceeded

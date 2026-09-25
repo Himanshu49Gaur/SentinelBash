@@ -1,0 +1,14 @@
+INFO:     Started server process [27024]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8089 (Press CTRL+C to quit)
+[*] Initializing database at: D:\SOC Automation\data\sentinel.db
+[+] Seeded 3 detection rules.
+[+] Seeded default administrator account: 'admin'.
+[+] Seeded 2 notification channels.
+[+] Seeded 7 whitelist entries from whitelist.conf.
+[*] Database migration and seeding COMPLETED successfully.
+[+] Database verified and initialized on FastAPI startup.
+INFO:     127.0.0.1:62384 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62385 - "GET /api/v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62386 - "GET /api/v1/stream/logs HTTP/1.1" 200 OK

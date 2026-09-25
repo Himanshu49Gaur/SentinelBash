@@ -1,0 +1,86 @@
+1790205392|sshd|203.0.113.88|AUTH_FAILURE|Failed password for user 'root'
+1790205662|sshd|198.51.100.66|AUTH_FAILURE|Failed password for user 'admin'
+1790205663|web|198.51.100.66|WEB_PROBE|GET /etc/passwd [status:404 agent:curl/8.0]
+1790205663|sudo|127.0.0.1|SUDO_FAILURE|Sudo violation by 'testuser': Sep 24 04:00:05 server sudo: testuser : 3 incorrect password attempts ; TTY=pts/0 ; USER=root ; COMMAND=/bin/bash
+1790205694|sshd|198.51.100.66|AUTH_FAILURE|Failed password for user 'admin'
+1790205694|web|198.51.100.66|WEB_PROBE|GET /etc/passwd [status:404 agent:curl/8.0]
+1790205695|sudo|127.0.0.1|SUDO_FAILURE|Sudo violation by 'testuser': Sep 24 04:00:05 server sudo: testuser : 3 incorrect password attempts ; TTY=pts/0 ; USER=root ; COMMAND=/bin/bash
+1790205733|sshd|198.51.100.66|AUTH_FAILURE|Failed password for user 'admin'
+1790205733|web|198.51.100.66|WEB_PROBE|GET /etc/passwd [status:404 agent:curl/8.0]
+1790205734|sudo|127.0.0.1|SUDO_FAILURE|Sudo violation by 'testuser': Sep 24 04:00:05 server sudo: testuser : 3 incorrect password attempts ; TTY=pts/0 ; USER=root ; COMMAND=/bin/bash
+1790205830|sshd|198.51.100.66|AUTH_FAILURE|Failed password for user 'admin'
+1790205831|web|198.51.100.66|WEB_PROBE|GET /etc/passwd [status:404 agent:curl/8.0]
+1790205832|sudo|127.0.0.1|SUDO_FAILURE|Sudo violation by 'testuser': Sep 24 04:00:05 server sudo: testuser : 3 incorrect password attempts ; TTY=pts/0 ; USER=root ; COMMAND=/bin/bash
+1790277331|sshd|198.51.100.66|AUTH_FAILURE|Failed password for user 'admin'
+1790277332|web|198.51.100.66|WEB_PROBE|GET /etc/passwd [status:404 agent:curl/8.0]
+1790277333|sudo|127.0.0.1|SUDO_FAILURE|Sudo violation by 'testuser': Sep 24 04:00:05 server sudo: testuser : 3 incorrect password attempts ; TTY=pts/0 ; USER=root ; COMMAND=/bin/bash
+1790277844|sshd|198.51.100.66|AUTH_FAILURE|Failed password for user 'admin'
+1790277845|web|198.51.100.66|WEB_PROBE|GET /etc/passwd [status:404 agent:curl/8.0]
+1790277845|sudo|127.0.0.1|SUDO_FAILURE|Sudo violation by 'testuser': Sep 24 04:00:05 server sudo: testuser : 3 incorrect password attempts ; TTY=pts/0 ; USER=root ; COMMAND=/bin/bash
+1790278304|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278305|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278306|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278306|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278307|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278308|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278311|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278312|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278312|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278313|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278314|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278315|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278319|web|203.0.113.222|WEB_PROBE|GET /../../../../etc/passwd [status:404 agent:curl/8.0]
+1790278319|web|203.0.113.222|WEB_PROBE|GET /.env [status:404 agent:gobuster/3.1]
+1790278320|web|203.0.113.222|WEB_PROBE|GET /.git/config [status:404 agent:sqlmap/1.5]
+1790278321|web|203.0.113.222|WEB_PROBE|GET /phpmyadmin/index.php [status:404 agent:nikto/2.1]
+1790278417|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278418|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278419|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278419|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278420|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278421|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278423|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278424|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278424|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278424|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278424|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278424|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278443|web|203.0.113.222|WEB_PROBE|GET /../../../../etc/passwd [status:404 agent:curl/8.0]
+1790278443|web|203.0.113.222|WEB_PROBE|GET /.env [status:404 agent:gobuster/3.1]
+1790278443|web|203.0.113.222|WEB_PROBE|GET /.git/config [status:404 agent:sqlmap/1.5]
+1790278443|web|203.0.113.222|WEB_PROBE|GET /phpmyadmin/index.php [status:404 agent:nikto/2.1]
+1790278445|sshd|198.51.100.66|AUTH_FAILURE|Failed password for user 'admin'
+1790278445|web|198.51.100.66|WEB_PROBE|GET /etc/passwd [status:404 agent:curl/8.0]
+1790278446|sudo|127.0.0.1|SUDO_FAILURE|Sudo violation by 'testuser': Sep 24 04:00:05 server sudo: testuser : 3 incorrect password attempts ; TTY=pts/0 ; USER=root ; COMMAND=/bin/bash
+1790278491|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278492|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278492|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278493|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278494|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278495|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278497|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278498|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278498|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278498|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278498|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278498|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278521|web|203.0.113.222|WEB_PROBE|GET /../../../../etc/passwd [status:404 agent:curl/8.0]
+1790278521|web|203.0.113.222|WEB_PROBE|GET /.env [status:404 agent:gobuster/3.1]
+1790278521|web|203.0.113.222|WEB_PROBE|GET /.git/config [status:404 agent:sqlmap/1.5]
+1790278521|web|203.0.113.222|WEB_PROBE|GET /phpmyadmin/index.php [status:404 agent:nikto/2.1]
+1790278533|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278534|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278534|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278535|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278536|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278537|sshd|127.0.0.1|AUTH_FAILURE|Failed password for user 'root'
+1790278539|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278539|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278540|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278540|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278540|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278540|sshd|198.51.100.111|AUTH_FAILURE|Failed password for user 'admin'
+1790278565|web|203.0.113.222|WEB_PROBE|GET /../../../../etc/passwd [status:404 agent:curl/8.0]
+1790278565|web|203.0.113.222|WEB_PROBE|GET /.env [status:404 agent:gobuster/3.1]
+1790278565|web|203.0.113.222|WEB_PROBE|GET /.git/config [status:404 agent:sqlmap/1.5]
+1790278565|web|203.0.113.222|WEB_PROBE|GET /phpmyadmin/index.php [status:404 agent:nikto/2.1]
