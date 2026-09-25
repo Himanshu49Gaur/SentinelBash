@@ -1,0 +1,14 @@
+{
+  "incident_id": "INC-20260925-74b0e73e",
+  "timestamp": "2026-09-24T19:35:03Z",
+  "epoch": 1790278503,
+  "status": "CONTAINED",
+  "severity": "CRITICAL",
+  "attack_vector": "SSH_BRUTE_FORCE",
+  "attacker_ip": "198.51.100.111",
+  "target_host": "DESKTOP-T0SGAF9",
+  "netfilter_driver": "mock",
+  "event_count": 5,
+  "summary": "SSH brute force authentication threshold exceeded",
+  "markdown_dossier": "/d/SOC Automation/data/incidents/INC-20260925-74b0e73e.md"
+}

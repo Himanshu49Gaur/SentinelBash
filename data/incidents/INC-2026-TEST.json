@@ -1,0 +1,14 @@
+{
+  "incident_id": "INC-2026-TEST",
+  "timestamp": "2026-09-23T23:19:36Z",
+  "epoch": 1790205576,
+  "status": "CONTAINED",
+  "severity": "CRITICAL",
+  "attack_vector": "SSH_BRUTE_FORCE",
+  "attacker_ip": "198.51.100.99",
+  "target_host": "DESKTOP-T0SGAF9",
+  "netfilter_driver": "mock",
+  "event_count": 6,
+  "summary": "SSH Brute Force automated detection",
+  "markdown_dossier": "/d/SOC Automation/data/incidents/INC-2026-TEST.md"
+}

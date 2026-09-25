@@ -1,0 +1,14 @@
+{
+  "incident_id": "INC-AUTOTEST-1790277356",
+  "timestamp": "2026-09-24T19:15:57Z",
+  "epoch": 1790277357,
+  "status": "CONTAINED",
+  "severity": "HIGH",
+  "attack_vector": "WEB_EXPLOIT_SCAN",
+  "attacker_ip": "198.51.100.77",
+  "target_host": "DESKTOP-T0SGAF9",
+  "netfilter_driver": "mock",
+  "event_count": 3,
+  "summary": "Automated web scanner detected",
+  "markdown_dossier": "/d/SOC Automation/data/incidents/INC-AUTOTEST-1790277356.md"
+}

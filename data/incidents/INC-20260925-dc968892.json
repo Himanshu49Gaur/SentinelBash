@@ -1,0 +1,14 @@
+{
+  "incident_id": "INC-20260925-dc968892",
+  "timestamp": "2026-09-24T19:36:09Z",
+  "epoch": 1790278569,
+  "status": "CONTAINED",
+  "severity": "HIGH",
+  "attack_vector": "WEB_EXPLOIT_SCAN",
+  "attacker_ip": "203.0.113.222",
+  "target_host": "DESKTOP-T0SGAF9",
+  "netfilter_driver": "mock",
+  "event_count": 3,
+  "summary": "Web application vulnerability scanning or probe attempts exceeded",
+  "markdown_dossier": "/d/SOC Automation/data/incidents/INC-20260925-dc968892.md"
+}
