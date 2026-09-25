@@ -1,0 +1,26 @@
+[Unit]
+Description=SentinelBash Tactical SOC FastAPI & SSE Management Gateway
+After=network.target sentinel-engine.service
+Documentation=https://github.com/sentinelbash/sentinelbash
+
+[Service]
+Type=simple
+User=sentinel
+Group=sentinel
+WorkingDirectory=/opt/sentinelbash
+Environment="PATH=/opt/sentinelbash/.venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin"
+EnvironmentFile=-/etc/default/sentinelbash
+ExecStart=/opt/sentinelbash/.venv/bin/uvicorn server.main:app --host 0.0.0.0 --port 8000 --workers 4 --proxy-headers --forwarded-allow-ips='*'
+Restart=always
+RestartSec=3s
+LimitNOFILE=65535
+
+# Hardening
+ProtectSystem=strict
+ReadWritePaths=/opt/sentinelbash/data /opt/sentinelbash/config
+ProtectHome=true
+PrivateTmp=true
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target

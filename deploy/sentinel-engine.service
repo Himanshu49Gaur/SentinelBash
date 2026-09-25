@@ -1,0 +1,28 @@
+[Unit]
+Description=SentinelBash SOC Core Engine & Netfilter Daemon
+After=network.target syslog.target
+Documentation=https://github.com/sentinelbash/sentinelbash
+
+[Service]
+Type=forking
+User=root
+WorkingDirectory=/opt/sentinelbash
+ExecStart=/opt/sentinelbash/bin/sentinel.sh start
+ExecStop=/opt/sentinelbash/bin/sentinel.sh stop
+ExecReload=/opt/sentinelbash/bin/sentinel.sh restart
+PIDFile=/opt/sentinelbash/data/run/sentinel.pid
+Restart=always
+RestartSec=5s
+LimitNOFILE=65535
+TimeoutStartSec=30s
+TimeoutStopSec=20s
+
+# Sandboxing & Hardening
+ProtectSystem=full
+ProtectHome=read-only
+PrivateTmp=true
+CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_RAW CAP_DAC_OVERRIDE CAP_SETUID CAP_SETGID
+AmbientCapabilities=CAP_NET_ADMIN CAP_NET_RAW
+
+[Install]
+WantedBy=multi-user.target
